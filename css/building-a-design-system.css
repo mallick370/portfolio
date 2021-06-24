@@ -1,0 +1,123 @@
+.logo
+{
+    position: absolute;
+    width: 135px;
+    height: 22px;
+    left: calc(50% - 135px/2 - 522.5px);
+    top: 35px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #0A2540;
+    text-decoration: none;
+}
+
+.about
+{
+    position: absolute;
+    width: 47px;
+    height: 19px;
+    left: calc(50% - 47px/2 + 438.5px);
+    top: 38px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0A2540;
+    text-decoration: none;
+}
+
+.contact
+{
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    left: calc(50% - 90px/2 + 545px);
+    top: 38px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0A2540;
+    text-decoration: none;
+}
+
+hr
+{
+    position: absolute;
+    width: 1181px;
+    height: 0px;
+    left: calc(50% - 1181px/2 - 0.5px);
+    top: 5563px;
+
+    border: 1px solid #E5E5E5;
+    margin-bottom: 33px;
+}
+
+.contact-list
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: auto;
+    height: 17px;
+    left: calc(50% - 312px/2 - 434px);
+    top: 5593px;
+    padding-bottom: 50px;
+}
+
+li{
+    display: inline-block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding: 0 9px;
+
+    color: #425466;
+}
+
+.copyright
+{
+    position: absolute;
+    width: 344px;
+    height: 17px;
+    left: calc(50% - 344px/2 + 418px);
+    top: 5580px;
+    padding-bottom: 50px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #C3CAD3;
+}
+.footer-links
+{
+    text-decoration: none;
+    color : #425466
+}
+
+.footer-links:hover
+{
+    color : #635BFF;
+}

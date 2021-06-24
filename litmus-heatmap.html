@@ -1,0 +1,100 @@
+<html lang="en">
+    <head>
+        <title>MayukhMallick</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="css/litmus-heatmap.css" rel="stylesheet">
+        <link href="css/case-studies.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html" class="logo">Mayukh Mallick</a>
+            <a href="about.html" class="about">About</a>
+            <a href="#" class="contact">Contact Me</a>
+        </div>
+        <div class="hero">
+            <img class="hero-image" src="assets/litmus-heatmap.png">
+            <div class="case-study-box">
+                <p class="case-study-title">Heatmap in LitmusChaos</p>
+                <p class="case-study-subtitle">Browse workflow analytics in a better way.</p>
+            </div>
+        </div>
+        <div class="case-study-desc">
+           
+            <div class= "rows">
+                <p class="row-name">The problem</p>
+                <p class="row-desc">Using plotly library to visualise the analytics of workflow was not receiving a great feedback from UI as well as UX perspective, 
+                    however the plotly graphs were best to visualise the analytics of workflow for developpment purposes because the plotly UX was passing all the 
+                    test cases needed for chaos workflows. So I took the mission to find something better which will be easy to develop and good for UX also.
+                </p>
+            </div>
+            <div class= "rows">
+                <p class="row-name">Challenges</p>
+                <p class="row-desc">Generally our standup agendas used to go in this manner like I used to present a 
+                    design and developers used to review like can this design pass all their test cases. So in standups 
+                    I used to present designs but when a dozen of smart developers sit together they tend to give unique 
+                    test cases and my design was getting failed, so I thought the other way round lets take all of their 
+                    test cases and make a design and the results came out pretty good.
+                </p>
+            </div>
+            <div class= "rows">
+                <p class="row-name">Approaching Better Solutions</p>
+                <p class="row-desc">The plotly visualisation of workflow analytics looked like this
+                </p>
+                <img class="case-study-image" src="assets/plotly-visualisation.png">
+                <p class="row-desc">It has a major drawback, for a recurring workflow the number of bars will keep on increasing on x-axis and these bars will 
+                    become very thin lines. Each bar represents the results of a workflow run and with this approach when there will be hundred of run the bars 
+                    will become so thin that users can’t see the results. Users will need to pan and zoom in to view the results which may make the users 
+                    frustrated to find a particular workflow run.
+                </p>
+                <p class="row-desc">So you can see making the icons with filled colors was creating the confusion, so I tried making the workflow state icons outlined 
+                    and also change the colors a little bit and turned out the users were now able to analyse the workflows better.
+                </p>
+                <p class="row-desc">With all these problems I was trying to find better visualisation process, I gone through various graphs found at visx 
+                    library which had good UX however I also needed to pass the designs through the developers test cases. I came across someone’s Github 
+                    activity and browsing through the Github heatmap, idea struck my head and created a design and found that the design can pass all 
+                    the test cases provided to me.
+                </p>
+                <img class="case-study-image" src="assets/litmus-heatmap-workflow-analytics.png">
+                <p class="row-desc">Each cell represents the workflow runs on that day of the year. 
+                    Hovering on a cell shows the average resiliency score of all the workflow runs on that day and on clicking on the cell 
+                    the familiar bar graph opens but in one day an user can run maximum 24 workflow so it was easy to accomodate on x-axis 24 bar graphs
+                </p>
+            </div>
+            <div class= "rows">
+                <p class="row-name">Results</p>
+                <p class="row-desc">Before the standup I showed the design to developers however I didn’t explain my thought process. 
+                    The developers took the design and presented it to our Project Manager and they explain the design themselves without my intervention. 
+                    It was first time that without my explanation developers understood the design just by seeing it and I reliased this UX is good because 
+                    if an user understands easily with almost no help then it means the design is good.
+                </p>
+            </div>
+            <div class= "rows">
+                <p class="row-name">Conclusion</p>
+                <p class="row-desc">The conclusion I drawn was I need to think out of box sometimes that doesn’t mean 
+                    I need to completely provide a new UX which no users has used previosly. Whenever we think about 
+                    visualisation we think about lines, areas, radial, charts etc. but tackling our problem with Github heatmap 
+                    design was something out of the box also as this heatmap UX is very familiar to most developers and our userbase 
+                    is also mostly developers it will be a good thing to visualise the workflow analytics with heatmaps.
+                </p>
+            </div>
+            <div class= "rows">
+                <button class="direction-button" onclick="location.href='index.html';">Back to All Projects </button></a>
+            </div>
+        </div>
+        <div class="footer">
+            <hr />
+            <ul class="contact-list">
+                <li><a href="#" class="footer-links">mallick370@gmail.com</a></li>
+                <li>/</li>
+                <li><a href="https://www.linkedin.com/in/mayukh-mallick-a7460916b/" class="footer-links">LinkedIn</a></li>
+                <li>/</li>
+                <li><a href="https://twitter.com/mallick370" class="footer-links">Twitter</a></li>
+            </ul>
+            <p class="copyright">Website design and content © 2021 Mayukh Mallick</p>
+        </div>
+    </body>
+</html>
